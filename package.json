@@ -5,12 +5,11 @@
   "main": "index.js",
   "scripts": {
     "start": "netlify dev"
-    // You might have other scripts here, or none at all
   },
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "pg": "^8.16.3" // Make sure to use the exact version or latest from npmjs.com
+    "pg": "^8.16.3" 
   }
 }
