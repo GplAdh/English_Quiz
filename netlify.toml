@@ -1,7 +1,0 @@
-[build]
-  command = "echo 'No build command needed for static site with functions'"
-  publish = "." # This tells Netlify your HTML is in the root
-
-[functions]
-  directory = "netlify/functions" # This is where your serverless functions will live
-  node_bundler = "esbuild" # Modern bundler for faster builds
